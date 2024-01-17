@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import { Auth } from './components/Auth';
+import { Auth } from './Components/auth';
+
 
 function App() {
   return (
     <div className="App">
-
+      <Auth />
     </div>
   );
 }
